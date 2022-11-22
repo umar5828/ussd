@@ -1,0 +1,168 @@
+
+@keyframes box-mover{
+    0%{
+        background-color:#F5C403;
+        color: #212c35;
+
+    }
+
+    25%{background-color:#F5C403;
+        color: rgb(255, 255, 255);
+      
+
+    }
+    50%{
+        background-color:#E4181F;
+        color: rgb(255, 255, 255);
+    }
+
+75%{
+          background-color:#6F3E99;
+        color: rgb(255, 255, 255);
+    }
+
+    100%{
+        background-color: #03A0E3; 
+               color: rgb(255, 255, 255);
+
+    }
+}
+@keyframes box-color{
+    0%{
+        color: #03A0E3;
+
+    }
+
+    25%{
+    color:#6F3E99;
+
+    }
+    50%{
+   color:#E4181F;
+    }
+
+75%{
+color:#F5C403;
+    }
+
+    100%{
+      color:#F5C403;
+    }
+}
+
+.xizmat__sarlavha{
+    text-align: center;
+    border-radius: 25px;
+    padding: 1px;
+    width: 90%;
+    margin:0 55px;
+    background-color: #03A0E3;
+    color: white;
+     animation-name: box-mover;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+
+.nav-bar__ul a{
+    animation-name: box-color;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    font-size: 16px;
+    font-weight: 600;
+}
+.xizmat__ussd__kod{
+    animation-name: box-mover;
+    animation-direction: alternate-reverse;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 100px;
+    background-color: #03A0E3;
+    width: 250px;
+    height: 300px;
+    vertical-align: middle;
+    border-radius: 20px;
+    transition:all;
+    cursor: pointer;
+}
+.xizmat__ussd__kod:hover{
+    position: relative;
+    left: 20px;
+    top: 20px;
+   
+}
+.xizmat__ussd__kod h3{
+    color: white;
+    text-transform: uppercase;
+text-align: center;
+}
+.xizmat__ussd__kod li {
+    display:flex;
+    color: #212c35;
+    padding: 16px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.xizmat__ussd__kod li a{
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+}
+
+/* footer*/
+.footer{
+    margin: 10px 90px;
+    border-top: 1px solid black;
+    border-top-color: #F5C403;
+    display: flex;
+}
+.aloqa__markaz{
+    display:flex;
+    vertical-align:middle;
+    font-size: 20px;
+}
+.aloqa__markaz h3{
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    background: rgb(29,3,227);
+    background: linear-gradient(82deg, rgba(29,3,227,1) 0%, rgba(245,3,3,1) 100%);
+}
+.aloqa__markaz a span{
+    position: relative;
+    top: 50px;
+    color: white;
+    border: 1px solid rgb(247, 0, 255);
+    font-size: 20px;
+    font-weight: bold;
+    left: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    color: #212c35;
+}
+.aloqa__markaz a{
+    text-decoration: none;
+}
+.Telegram__kanal{
+    display:flex;
+    vertical-align:middle;
+    margin-left: 60px;
+    font-size: 20px;
+}
+.Telegram__kanal h3{
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    background: rgb(29,3,227);
+    background: linear-gradient(82deg, rgba(29,3,227,1) 0%, rgba(245,3,3,1) 100%);
+}
+
+.Telegram__kanal a img{
+    position: relative;
+    top: 30px;
+    left: 50px;
+}
+

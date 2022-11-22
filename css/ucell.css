@@ -1,0 +1,159 @@
+.container__ucell{
+    width: 72.80rem;
+    margin: 0 auto;
+}
+
+/* Header*/
+.ucell__image  img{
+margin: 0 0 0 500px;
+}
+.main__ul{
+    display: flex;
+    padding: 10px;
+    margin-left: 20px;
+}
+.main__ul li a{
+padding: 20px 40px;   
+background-color: #6F3E99;
+color: white;
+border-radius:5px;
+ 
+}
+.main__ul li a:hover{
+    background-color: white;
+    color: #6F3E99;
+    -webkit-box-shadow: 0px 0px 29px -7px rgba(34, 60, 80, 0.34);
+    -moz-box-shadow: 0px 0px 29px -7px rgba(34, 60, 80, 0.34);
+    box-shadow: 0px 0px 29px -7px rgba(34, 60, 80, 0.34);
+     border: 1px solid #6F3E99 ;
+     font-weight: 600;
+     width: 70%;
+}
+/* Tarif rejalar*/
+.tarif-rejalar__sarlavha{
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    color: #6F3E99;
+}
+
+
+.tarif__card{
+    -webkit-box-shadow: 0px 0px 29px -7px rgba(34, 60, 80, 0.34);
+    -moz-box-shadow: 0px 0px 29px -7px rgba(34, 60, 80, 0.34);
+    box-shadow: 0px 0px 29px -7px rgba(34, 60, 80, 0.34);
+display: inline-block;
+margin: 60px 50px;
+width:40%;
+}
+.tarif__nomi{
+    text-align: center;
+    color:#6F3E99;
+    font-size: 16px;
+    font-weight: 700;
+}
+.tarif__nomi span{
+    color: #00CC9B;
+}
+.internet{
+margin-left: 60px;
+}
+.internet span{
+    font-size: 30px;
+    font-weight: 600;
+}
+.daqiqa{
+    margin-left: 60px;
+}
+.daqiqa__span{
+    font-size: 25px;
+}
+.daqiqa__span1{
+    font-size: 23px;
+    margin-left: 3px;
+}
+.sms span{
+    font-size: 25px;
+    margin-left: 60px;
+}
+.gb{
+    font-size: 16px;
+    font-weight:400;
+    text-align: justify;
+    margin-left: 60px;
+}
+.gb a{
+    color:#6F3E99 ;
+}
+.abanent{
+margin-left: 120px;
+color:#00CC9B ;
+}
+.narxi{
+    font-style: 20px;
+    font-weight: 900;
+}
+.tarif__buttons{
+    padding: 15px 40px;   
+background-color: #6F3E99;
+color: white;
+border-radius:5px;
+font-size: 20px;
+border: none;
+cursor: pointer;
+margin-left: 180px;
+}
+.tarif__buttons:focus { outline: none; }
+
+
+/* net card*/
+.internet__card{
+    display: flex;
+    margin-left: 200px;
+}
+.net__sarlavha{
+color: #6F3E99;
+}
+.net__card{
+    background-color: rgb(255, 255, 255);
+    -webkit-box-shadow: 0px 0px 29px -7px rgba(34, 60, 80, 0.34);
+    -moz-box-shadow: 0px 0px 29px -7px rgba(34, 60, 80, 0.34);
+    box-shadow: 0px 0px 29px -7px rgba(34, 60, 80, 0.34);
+    display: inline-block;
+    width:20%;
+    border-radius: 15px;
+    margin: 30px 25px;
+
+}
+.net__hajmi1{
+  color:#6F3E99;
+    margin-left: 65px;
+  font-size: 18px;
+    font-weight: 700;
+    text-align:left;
+}
+
+.net__hajmi2{
+    font-size: 18px;
+    font-weight: 500;
+    color: #00CC9B;
+}
+.kod__tarif{
+    color: #00CC9B;
+    font-size: 18px;
+    font-weight: 700;
+}
+.net__sum{
+    color: #6F3E99;
+}
+.button{
+    padding: 15px 40px;   
+    width: 65.5%;
+    background-color: #6F3E99;
+    color: white;
+    border-radius:5px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer; 
+    border-radius: 0 0 15px 15px;
+}

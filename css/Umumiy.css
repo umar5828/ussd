@@ -1,0 +1,92 @@
+.container{
+    -webkit-box-shadow: 0px 11px 9px 10px rgba(34, 60, 80, 0.21);
+    -moz-box-shadow: 0px 11px 9px 10px rgba(34, 60, 80, 0.21);
+    box-shadow: 0px 11px 9px 10px rgba(34, 60, 80, 0.21);
+    width: 72.75rem;
+    margin: 0 auto;
+    position: relative;
+    top: -8px;
+    left: auto;
+    border-radius: 0 0 10px 10px;
+}
+.clearfix{
+    clear: both;
+}
+.tsr-popup-btn.tsr-popup-btn-extrasmall {
+    padding: 10px 12px;
+}
+
+.tsr-popup-btn {
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    -ms-border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 0 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: #6F3E99;
+    border: none;
+    border-bottom: none;
+    line-height: 1;
+    color: #fff!important;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 12px 40px;
+    display: inline-block;
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    z-index: 1000;
+}
+.tsr-grid, .tsr-grid *, .tsr-grid *:before, .tsr-grid *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+a {
+    color: #642887;
+    text-decoration: none;
+    position: relative;
+    outline: none!important;
+}
+*, *:before, *:after {
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.tsr-typo {
+    font-size: 13px;
+    line-height: 1.3;
+}
+html {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.tsr-grid, .tsr-grid *, .tsr-grid *:before, .tsr-grid *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.tsr-grid, .tsr-grid *, .tsr-grid *:before, .tsr-grid *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
